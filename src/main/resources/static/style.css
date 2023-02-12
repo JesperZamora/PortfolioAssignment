@@ -9,16 +9,26 @@
     scroll-behavior: smooth;
 }
 
-.navbar-wrap {
+body {
+}
+
+.transparent-box {
+    background-color: rgba(240, 255, 241, 0);
     width: 100%;
     position: fixed;
-    background-color: rgba(240, 255, 241, 0.12);
+}
+
+.navbar-wrap {
+    max-width: 88%;
+    background-color: rgba(225, 239, 250, 0.12);
+    margin: auto;
     min-height: 70px;
     line-height: 70px;
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(4px);
 }
 
 .navbar-wrap h1 {
@@ -26,13 +36,11 @@
     float: left;
     margin-left: 20px;
     font-size: 30px;
-
-
 }
 .navbar {
     width: 100%;
-
 }
+
 .navbar a {
     padding: 20px;
     text-decoration: none;
@@ -51,7 +59,6 @@
 .main {
     width: 80%;
     margin: auto;
-    /*background-color: aliceblue;*/
 }
 
 .introduction-page {
@@ -72,6 +79,16 @@
     padding-bottom: 10px;
     display: inline-block;
 
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: large;
+}
+
+.setup-list p {
+    font-weight: normal;
+    line-height: 30px;
 }
 
 .setup-text {
@@ -150,11 +167,11 @@
     width: 30px;
     margin-left: 45px;
     margin-bottom: 40px;
-    transition: width 0.30s, opacity 0.30s;
+    transition: width 0.3s, opacity 0.3s;
 }
 
 .social-media svg:hover {
-    width: 40px;
+    width: 50px;
     opacity: 0.6;
 }
 #contact-page {
