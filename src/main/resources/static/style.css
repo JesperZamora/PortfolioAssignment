@@ -167,7 +167,7 @@ body {
     width: 30px;
     margin-left: 45px;
     margin-bottom: 40px;
-    transition: width 0.3s, opacity 0.3s;
+    transition: width 0.40s, opacity 0.40s;
 }
 
 .social-media svg:hover {
