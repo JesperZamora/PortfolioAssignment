@@ -20,14 +20,14 @@ body {
 
 .navbar-wrap {
     max-width: 88%;
-    background-color: rgba(225, 239, 250, 0.12);
+    /*background-color: rgba(225, 239, 250, 0.12) transparent slight blue to mimic glass;*/
     margin: auto;
-    min-height: 70px;
-    line-height: 70px;
+    min-height: 75px;
+    line-height: 75px;
     display: flex;
     justify-content: space-between;
-    border-radius: 50px;
-    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.05);
+    /*border-radius: 50px; rounded bar*/
+    /*box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.05); bar shadow*/
     backdrop-filter: blur(4px);
 }
 
