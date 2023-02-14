@@ -96,6 +96,7 @@ body {
     font-size: 18px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05);
+    padding: 15px;
 }
 
 .setup-list ul li a{
@@ -122,6 +123,7 @@ body {
 .setup-list {
     border-radius: 10px;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05);
+    padding: 15px;
 }
 
 .setup-textbox {
@@ -138,7 +140,6 @@ body {
     width: 40%;
     text-align: left;
     border-radius: 10px;
-
 }
 
 .setup-textbox-three {
